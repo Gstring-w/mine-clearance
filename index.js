@@ -29,7 +29,8 @@ bindEvent();
 
 
 function init() {
-    sore.innerText = 10;
+    _sore = 10;
+    sore.innerText = _sore;
     rander(10); // 渲染10*10 个格子
     marker(10); //标记 10 个地雷
     oDiv.onmousedown = function (e) {
